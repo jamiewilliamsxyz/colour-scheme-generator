@@ -32,9 +32,7 @@ const renderColourScheme = (data) => {
       return `
       <div class="colour-column">
         <div style="background-color:${colour.hex.value};" class="colour-strip"></div>
-        <div class="hex-container">
-          <p class="hex-text">${colour.hex.value}</p>
-        </div>
+        <p class="hex-text">${colour.hex.value}</p>
       </div>
     `;
     })
