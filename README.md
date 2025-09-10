@@ -8,7 +8,7 @@ This project was created with HTML5, CSS3, JavaScript and uses RESTful APIs to f
 
 - Select a seed colour
 - Select a scheme mode
-- Press the "Get colour theme" button to generate a colour scheme based on the seed colour and scheme mode selected
+- Press the "Get colour scheme" button to generate a colour scheme based on the seed colour and scheme mode selected
 
 ### Image
 
