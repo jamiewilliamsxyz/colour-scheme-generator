@@ -30,6 +30,13 @@ body {
   border: solid 1px #d1d5db;
   border-radius: 2px;
   background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  background-image: url("https://www.svgrepo.com/show/80156/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: calc(100% - 16px);
 }
 
 .generate-btn {
