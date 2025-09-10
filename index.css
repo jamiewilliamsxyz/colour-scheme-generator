@@ -24,7 +24,7 @@ body {
   border: transparent;
 }
 
-.scheme-mode-select {
+.scheme-select {
   width: 16em;
   height: 3.25em;
   border: solid 1px #d1d5db;
@@ -32,7 +32,7 @@ body {
   background: transparent;
 }
 
-.generate-scheme-btn {
+.generate-btn {
   height: 3.25em;
   padding: 0 2em;
   border: solid 1px #d1d5db;
@@ -41,21 +41,21 @@ body {
   transition: 0.3s;
 }
 
-.generate-scheme-btn:hover {
+.generate-btn:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.generate-scheme-btn:active {
+.generate-btn:active {
   box-shadow: none;
 }
 
-.scheme-mode-select,
-.generate-scheme-btn {
+.scheme-select,
+.generate-btn {
   font-size: 0.875rem;
 }
 
-.scheme-mode-select,
-.generate-scheme-btn,
+.scheme-select,
+.generate-btn,
 .seed-picker {
   cursor: pointer;
 }
