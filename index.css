@@ -36,7 +36,7 @@ body {
   background-image: url("https://www.svgrepo.com/show/80156/down-arrow.svg");
   background-repeat: no-repeat;
   background-size: 12px 12px;
-  background-position: calc(100% - 16px);
+  background-position: calc(100% - 14px);
 }
 
 .generate-btn {
