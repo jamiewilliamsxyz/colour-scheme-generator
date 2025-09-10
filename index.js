@@ -38,3 +38,5 @@ const renderColourScheme = (data) => {
     })
     .join("");
 };
+
+getColourScheme();
