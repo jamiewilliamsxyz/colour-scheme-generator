@@ -24,6 +24,11 @@ body {
   padding: 0;
   background-color: transparent;
   border: transparent;
+  transition: 0.3s;
+}
+
+.seed-picker:hover {
+  scale: 0.95;
 }
 
 .scheme-select {
@@ -40,6 +45,16 @@ body {
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: calc(100% - 1em);
+  outline: none;
+  transition: 0.3s;
+}
+
+.scheme-select:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.scheme-select:active {
+  box-shadow: none;
 }
 
 .generate-btn {
