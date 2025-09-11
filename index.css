@@ -39,8 +39,6 @@ body {
   background: transparent;
   padding-left: 1em;
   appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   background-image: url("https://www.svgrepo.com/show/80156/down-arrow.svg");
   background-repeat: no-repeat;
   background-size: 12px 12px;
