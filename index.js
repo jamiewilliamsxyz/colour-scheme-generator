@@ -18,12 +18,21 @@ generateBtn.addEventListener("click", () => {
   getColourScheme();
 });
 
-const getColourScheme = () => {
-  fetch(
-    `https://www.thecolorapi.com/scheme?hex=${seedColour}&mode=${selectedScheme}`
-  )
-    .then((res) => res.json())
-    .then((data) => renderColourScheme(data.colors));
+getColourScheme = async () => {
+  try {
+    const res = await fetch(
+      `https://www.thecolorapi.com/scheme?hex=${seedColour}&mode=${selectedScheme}`
+    );
+    const data = await res.json();
+
+    if (!res.ok) {
+      throw Error(`An error has occurred, status code: ${res.status}`);
+    }
+
+    renderColourScheme(data.colors);
+  } catch (err) {
+    console.error(err);
+  }
 };
 
 const renderColourScheme = (data) => {
